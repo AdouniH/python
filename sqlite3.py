@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on %(date)s
 
-@author: %(username)s
-"""
 
 import  sqlite3
 db=sqlite3.connect("information.db")
@@ -63,4 +59,5 @@ def main():
             UpdateRecord(ID,Age)
 
 
-if __name__ == '__main__':main()
+if __name__ == '__main__':
+    main()
